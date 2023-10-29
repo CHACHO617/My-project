@@ -12,5 +12,19 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
+    public void RegresarAlMenu()
+    {
+        Debug.Log("Regresaste al menu");
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void IrAOpciones()
+    {
+        Debug.Log("Entraste al opciones");
+        SceneManager.LoadScene("OptionsScene");
+    }
+
+
+
 
 }
